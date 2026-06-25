@@ -38,3 +38,23 @@ No hay base de datos. El único usuario válido es:
   "password": "1234"
 }
 ```
+
+# Estructura del proyecto
+
+```
+src/
+    ├── app.js
+    ├── data/
+    │   ├── users.js
+    │   └── favorites.js
+    ├── middlewares/
+    │   └── authMiddleware.js
+    ├── services/
+    │   └── dragonBallService.js
+    ├── controllers/
+    │   ├── authController.js
+    │   └── charactersController.js
+    └── routes/
+        ├── authRoutes.js
+        └── charactersRoutes.js
+```
